@@ -6,6 +6,8 @@
 
 *(This repository is the compact, reproducible mini-project implementation inspired by the papers above—focused on the core decision-support workflow and a clean input/output interface.)*
 
+📦 **Dataset / benchmark instances:** https://github.com/optimalpaths/ssnd-benchmark  
+
 ---
 
 # Dispatch Decision Support Tool
