@@ -1,3 +1,13 @@
+🔗 **Related peer-reviewed papers (full-scale context):**
+- **Managerial / operational dispatch design (acceptance + batching/bundling + routing):** https://www.sciencedirect.com/science/article/pii/S0305048324001610  
+  *Highlights:* Designed M1M dispatch/assignment algorithms integrating **acceptance**, **batching/bundling**, and **routing** to improve service feasibility and operational consistency under real-world constraints. Built bundling + consolidation/pricing modules, improving **revenue yield** and **capacity utilization by 3–5%**, and evaluated **profit–cost–emissions** trade-offs.
+- **Methodological / demand uncertainty + decomposition:** https://www.sciencedirect.com/science/article/abs/pii/S0191261525001377  
+  *Highlights:* Built **uncertainty-aware** consolidation/coordination planning for multi-stakeholder freight; improved **expected profit by 15%+ (VSS)** vs deterministic baselines under demand uncertainty using a **decomposition-based algorithm**.
+
+*(This repository is the compact, reproducible mini-project implementation inspired by the papers above—focused on the core decision-support workflow and a clean input/output interface.)*
+
+---
+
 # Dispatch Decision Support Tool
 
 This repository provides an "input-driven decision support tool" for a dispatch / delivery organization operating time-sensitive freight flows across predefined corridors. Given an instance (demand, available services, and bundle offerings), the tool produces a "profit-optimized operating plan" and exports actionable outputs for planning and analysis.
